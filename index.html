@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="./src/public/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <script src="./src/public/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
+    <style>
+        .card-responsive .card-img-top {
+            width: 40%;
+        }
+
+        @media (min-width: 768px) {
+            .card-responsive .card-img-top {
+                width: 100%;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -29,10 +41,18 @@
         </div>
     </nav>
 
+    <div>
+        <div class="container">
+            <div class="">
+                <h1 class="text-center my-4">Nuestros productos</h1>
+            </div>
+        </div>
+    </div>
+
     <div class="container sm-md-1 ">
         <div class="row align-items-center lg-xl-xxl-2">
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
                     <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -46,7 +66,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
                     <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -60,7 +80,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
                     <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
