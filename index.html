@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Productos</title>
     <link rel="stylesheet" href="./src/public/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <script src="./src/public/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-
-    <style>
-        .card-responsive .card-img-top {
-            width: 40%;
-        }
-
-        @media (min-width: 768px) {
-            .card-responsive .card-img-top {
-                width: 100%;
-            }
-        }
-    </style>
-
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -30,7 +14,6 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
@@ -41,60 +24,66 @@
         </div>
     </nav>
 
-    <div>
-        <div class="container">
-            <div class="">
-                <h1 class="text-center my-4">Nuestros productos</h1>
-            </div>
-        </div>
+    <div class="container">
+        <h1 class="text-center my-4">Nuestros productos</h1>
     </div>
 
-    <div class="container sm-md-1 ">
-        <div class="row align-items-center lg-xl-xxl-2">
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
-                    <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content.
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm d-flex flex-row flex-md-column align-items-stretch">
+                    <div class="d-flex align-items-center justify-content-center p-2">
+                        <img src="https://placehold.co/100x100/EEE/31343C" 
+                             class="img-fluid rounded" 
+                             alt="Producto" 
+                             style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Laptop Pro 15</h5>
+                        <p class="card-text mb-2"><strong>$1,299.00</strong></p>
+                        <p class="mb-2 text-warning">
+                            ★★★★★ <span class="text-muted">(4.9)</span>
                         </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
-                    <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content.
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm d-flex flex-row flex-md-column align-items-stretch">
+                    <div class="d-flex align-items-center justify-content-center p-2">
+                        <img src="https://placehold.co/100x100/EEE/31343C" 
+                             class="img-fluid rounded" 
+                             alt="Producto" 
+                             style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Auriculares X9</h5>
+                        <p class="card-text mb-2"><strong>$249.00</strong></p>
+                        <p class="mb-2 text-warning">
+                            ★★★★☆ <span class="text-muted">(4.5)</span>
                         </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm card-responsive d-flex flex-row flex-md-column">
-                    <img src="https://placehold.co/100x100/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's
-                            content.
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm d-flex flex-row flex-md-column align-items-stretch">
+                    <div class="d-flex align-items-center justify-content-center p-2">
+                        <img src="https://placehold.co/100x100/EEE/31343C" 
+                             class="img-fluid rounded" 
+                             alt="Producto" 
+                             style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Smartwatch Elite</h5>
+                        <p class="card-text mb-2"><strong>$399.00</strong></p>
+                        <p class="mb-2 text-warning">
+                            ★★★★★ <span class="text-muted">(4.8)</span>
                         </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 </body>
-
 </html>
